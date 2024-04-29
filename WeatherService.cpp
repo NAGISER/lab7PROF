@@ -4,11 +4,17 @@
 #include <iostream>
 #include "Weather.h"
 #include "JsonService.h"
+#include "Weather.h"
+#include "XmlService.h"
 int main()
 {
     JsonService js;
     Weather w = js.getWeather("weather.json");
 
+    XmlService xs;
+    Weather l = xs.getWeather("weather.xml");
+    w.print();
+    l.print();
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
