@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include "json.hpp"
 #include <iostream>
 using namespace std;
 class Weather
