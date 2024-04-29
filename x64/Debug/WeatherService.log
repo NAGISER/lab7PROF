@@ -1,2 +1,2 @@
-﻿WeatherService.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: virtual __cdecl Service::~Service(void)" (??1Service@@UEAA@XZ) в функции "public: virtual __cdecl JsonService::~JsonService(void)" (??1JsonService@@UEAA@XZ).
-C:\Users\class\Desktop\WeatherService\x64\Debug\WeatherService.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+﻿  JsonService.cpp
+  WeatherService.vcxproj -> C:\Users\class\Desktop\WeatherService\x64\Debug\WeatherService.exe
